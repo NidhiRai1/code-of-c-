@@ -1,0 +1,51 @@
+least recently used
+
+//in this question by put function you need to add the key , values in the linked list by keeping head and tail null 
+*most recent used is in just after the head and the least recently used is near the tail
+*now put the value of these key and their respective location in the unordered map 
+*if get () fuction calll any key which is present in the map then remove it from their and put it in the top and same in the LL MAKE IT AS MOST RECENTLY USED 
+*ifsize full the remove least receently used remove 
+
+
+class public: {
+int key , val ;
+node* head ;
+node* prev  ;
+node(keyy , vall){
+keyy = key ;
+vall = val ; }
+} :
+
+int cap ;
+unordered_map <int , node*> m ;
+node* head = new node(-1 ,-1);
+node* tail = new node(-1 , -1) ;
+nidhi(int capacity){
+cap = capicity ;
+head -> next = tail;
+tail -> prev = head ;
+}
+
+void addnode( node* newnode){
+node* temp = head->next ;
+newnode -> next = temp ;
+newnode -> prev = head ;
+head->next = newnode ;
+temp -> prev = newnode ;
+}
+
+void 
+
+
+void deletenode(node* 
+
+
+
+
+
+
+
+
+
+
+
